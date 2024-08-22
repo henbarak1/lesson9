@@ -1,0 +1,31 @@
+
+
+  .content{
+    color: black;
+  }
+  .data-tooltip  {
+    color: white;
+    
+    text-align: center;
+    top: 50px ;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+  }
+  .data-tooltip::after{
+    content: "pop up message!";
+    color: inherit;
+    top: 20px ;
+    left: 50px;
+    border-radius: 6px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+   .data-tooltip:hover{
+    visibility: visible;
+    content: "cool tooltip";
+    color: black;
+  }
+ 

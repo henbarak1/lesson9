@@ -1,0 +1,15 @@
+.main {
+    width: 400px;
+    height: 400px;
+    /* color: rebeccapurple; */
+    background-color: red;
+    z-index: 0;
+}
+.main::after{
+    content: " ";
+    background-color: rgb(186, 104, 207);
+    height: 400px;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+}

@@ -1,0 +1,8 @@
+.main p{
+    display: inline;
+    
+}
+a::after{
+    content: " "attr(href) ;
+    color: rgb(186, 104, 207);
+}
